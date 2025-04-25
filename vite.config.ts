@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/anchaprem_portfolio_new',
+  base: '/anchaprem_portfolio_new/',
   plugins: [react()],
   build: {
     // Generate source maps for better debugging

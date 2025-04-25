@@ -14,12 +14,13 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Accomplishments from './pages/Accomplishments';
 import AccomplishmentsHighlight from './components/AccomplishmentsHighlight';
+import CustomCursor from './components/CustomCursor';
 
 const ScrollHandler = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === '/' && location.state?.scrollTo) {
+    if (location.pathname === '/anchaprem_portfolio_new/' && location.state?.scrollTo) {
       setTimeout(() => {
         scroller.scrollTo(location.state.scrollTo, {
           duration: 800,
@@ -46,8 +47,9 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/anchaprem_portfolio_new">
       <div className="bg-[#0a192f] min-h-screen text-gray-300">
+        <CustomCursor />
         <Navbar />
         <ScrollHandler />
         <Routes>
