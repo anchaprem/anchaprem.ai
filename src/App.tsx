@@ -20,7 +20,7 @@ const ScrollHandler = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === '/anchaprem_portfolio_new/' && location.state?.scrollTo) {
+    if (location.pathname === '/anchaprem.ai/' && location.state?.scrollTo) {
       setTimeout(() => {
         scroller.scrollTo(location.state.scrollTo, {
           duration: 800,
@@ -47,7 +47,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/anchaprem_portfolio_new">
+    <Router basename="/anchaprem.ai">
       <div className="bg-[#0a192f] min-h-screen text-gray-300">
         <CustomCursor />
         <Navbar />
