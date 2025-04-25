@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://anchaprem.github.io/anchaprem_portfolio_new/",
+  "homepage": "https://anchaprem.github.io/anchaprem.ai/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
