@@ -33,8 +33,8 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 
 1. Clone the repository
 ```bash
-git clone https://github.com/anchaprem/portfolio.git
-cd portfolio
+git clone https://github.com/anchaprem/anchaprem_portfolio_new.git
+cd anchaprem_portfolio_new
 ```
 
 2. Install dependencies
@@ -91,4 +91,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Ancha Premchand - [anchaprem@gmail.com](mailto:anchaprem@gmail.com)
 
-Project Link: [https://github.com/anchaprem/portfolio](https://github.com/anchaprem/portfolio) 
+Project Link: [https://github.com/anchaprem/anchaprem_portfolio_new](https://github.com/anchaprem/anchaprem_portfolio_new) 
