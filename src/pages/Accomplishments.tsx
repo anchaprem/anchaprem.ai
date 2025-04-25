@@ -1,6 +1,4 @@
-import { motion } from 'framer-motion';
-import { FiAward, FiCode, FiBriefcase } from 'react-icons/fi';
-import { SiFreecodecamp, SiMeta, SiPython, SiHackerrank } from 'react-icons/si';
+import { FiAward, FiCode } from 'react-icons/fi';
 import { useState } from 'react';
 import { accomplishments, type Accomplishment } from '../data/accomplishments';
 

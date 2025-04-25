@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
-import { Link as RouterLink, useLocation } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiHome, FiUser, FiCode, FiAward, FiMail, FiMenu, FiX } from 'react-icons/fi';
+import { FiHome, FiUser, FiCode, FiAward, FiMail } from 'react-icons/fi';
 import { BiTask } from 'react-icons/bi';
 
 const Navbar = () => {
@@ -11,7 +11,6 @@ const Navbar = () => {
   const [showMobileNav, setShowMobileNav] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [activeSection, setActiveSection] = useState('home');
-  const location = useLocation();
 
   const navItems = [
     { name: 'Home', icon: FiHome, to: 'home' },

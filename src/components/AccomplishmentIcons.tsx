@@ -1,4 +1,4 @@
-import { FiAward, FiCode, FiBriefcase } from 'react-icons/fi';
+import { FiCode, FiBriefcase } from 'react-icons/fi';
 import { SiFreecodecamp, SiMeta, SiPython, SiHackerrank } from 'react-icons/si';
 
 export const Icons = {

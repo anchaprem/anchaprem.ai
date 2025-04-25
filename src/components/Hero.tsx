@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { Link } from 'react-scroll';
-import { FiArrowDown, FiCode, FiTerminal } from 'react-icons/fi';
+import { FiArrowDown } from 'react-icons/fi';
 import { DiCode, DiCss3, DiHtml5, DiJavascript, DiReact, DiPython, DiGit, DiDatabase } from 'react-icons/di';
 import { SiTypescript, SiNextdotjs, SiTailwindcss, SiGraphql } from 'react-icons/si';
 import { BsCode, BsCodeSlash, BsTerminal, BsBraces } from 'react-icons/bs';

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiMapPin, FiMail, FiPhone, FiGlobe } from 'react-icons/fi';
-import { FaLinkedin, FaGithub, FaFacebook, FaInstagram, FaWhatsapp, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaFacebook, FaInstagram, FaWhatsapp, FaTwitter } from 'react-icons/fa';
 
 const Contact = () => {
   const contactInfo = [
